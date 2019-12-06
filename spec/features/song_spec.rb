@@ -30,7 +30,7 @@ describe 'navigate song pages' do
   end
 end
 
-describe 'song form' do
+describe 'create a new song' do
   before do
     @artist = Artist.create(name: "My Artist", bio: "My artist bio")
     @genre = Genre.create(name: "My Genre")
